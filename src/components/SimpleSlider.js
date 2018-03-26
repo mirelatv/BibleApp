@@ -27,4 +27,4 @@ const SimpleSlider () => (
 );
 
 
-export default SimpleSlater
+export default SimpleSlider;

@@ -3,6 +3,7 @@ import  Header from'./Header';
 import Main from './SimpleSlider';
 import Footer from './Footer'
 
+
 const App = () => {
 
   return (
