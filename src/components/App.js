@@ -1,16 +1,16 @@
 import React from 'react';
-import  Header from'./Header';
-import Main from './SimpleSlider';
-import Footer from './Footer'
+import  Splash from'./Splash';
+import SimpleSlider from './SimpleSlider';
+import Main from './Main'
 
 
 const App = () => {
 
   return (
     <div>
-      <Header />
+      <Splash />
       <SimpleSlider />
-      <Footer />
+      <Main/>
     </div>
   );
 }
