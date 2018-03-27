@@ -3,30 +3,36 @@ import Slider from 'react-slick'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-const SimpleSlider = ({movies}) => {
-  const settings = {
+
+ 
+  
+  var settings = {
     dots: true,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
-    slidesToScroll: 1
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000,
+
   };
 
-  return (
-    <div className="container">
-      <div className="row">
-        <div className="col-12">
-          <Slider {...settings} className="col">
-            {movies.estrenos.map(element => (
-              <figure className="col" key={element.id} {...element}>
-                <img src={element.image} alt={element.name}  />
-              </figure>
-            ))}
-          </Slider>
-        </div>
-      </div>
-    </div>
-  )
-}
+  const SimpleSlider = ({ movies }) => (
 
-export default SimpleSlider;
+    <Slider {...settings} className=''>
+      {movies.map(obj =>
+        <div className=" "
+          key={obj.name}
+        // onClick={() => setSelectedBank(bank)}
+        >
+          <img className=""
+            src={obj.image}
+            alt={obj.name}
+          />
+
+        </div>
+      )}
+    </Slider>
+
+    )
+    export default SimpleSlider;

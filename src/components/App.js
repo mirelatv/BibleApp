@@ -1,7 +1,7 @@
 import React from 'react';
-import  Splash from'./components/Splash';
-import SimpleSlider from './components/SimpleSlider';
-import Main from './components/Main'
+import  Splash from'./Splash';
+import SimpleSlider from './SimpleSlider';
+import Main from './Main';
 
 const App = ({movies}) => {
   movies = {
@@ -147,7 +147,7 @@ const App = ({movies}) => {
   return (
     <div>
       <Splash />
-      <SimpleSlider movies = { movies }/>
+      {/* <SimpleSlider movies = { movies }/> */}
       <Main movies = {movies}/>
     </div>
   );

@@ -1,0 +1,28 @@
+:root {
+  --color1: #02448a; /*azul*/
+  --color2: #e50246; /*rojizo*/
+}
+
+ul {
+  list-style: none;
+}
+
+.imgs-footer{
+  width: 3rem;
+}
+
+.icon-header {
+  width: 1.8rem;
+}
+
+.colorBlue {
+  color: var(--color1);
+}
+
+.navbar-light .navbar-brand {
+  color: var(--color1)!important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: var(--color1)!important;
+}
