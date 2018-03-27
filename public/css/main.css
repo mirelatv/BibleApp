@@ -26,3 +26,18 @@ ul {
 .navbar-light .navbar-nav .nav-link {
   color: var(--color1)!important;
 }
+
+.cover{
+  height: 100vh;
+}
+
+body{
+  width: 100%;
+}
+
+.slick-slide img{
+  width: 100%;
+  height: 100vh;
+  margin-left: 5vh;
+  border: 12px solid white;
+}
