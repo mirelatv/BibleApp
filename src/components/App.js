@@ -1,18 +1,18 @@
 import React from 'react';
 import  Splash from'./Splash';
-import SimpleSlider from './SimpleSlider';
+import MoviesContainers from '../containers/MoviesContainers';
 import Main from './Main'
 
 
-const App = () => {
+const App = () => (
 
-  return (
+ 
     <div>
       <Splash />
-      <SimpleSlider />
+      <MoviesContainers />
       <Main/>
     </div>
   );
-}
+
 
 export default App;

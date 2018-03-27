@@ -1,13 +1,12 @@
 import { combineReducers } from 'redux'
-import MoviesReducer from './MoviesReducer'
+import MoviesReducer from './Movies-Reducer'
 
 
 const rootReducer = combineReducers({
-  movies: MoviesReducer,
-  
- 
+  cartelera: MoviesReducer,
   
 })
 
 
 export default rootReducer
+

@@ -4,6 +4,8 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 
+
+
 var settings = {
   dots: true,
   infinite: true,
@@ -14,7 +16,10 @@ var settings = {
 
 const SimpleSlider = ({movies}) => (
 
+ 
   <Slider {...settings} className="row">
+    {console.log(movies)}
+
     {movies.map(obj =>
       <div className="col-12"
         key={obj.name}
@@ -29,5 +34,7 @@ const SimpleSlider = ({movies}) => (
   </Slider>
 
 )
+
+
 
 export default SimpleSlider;
