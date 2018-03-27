@@ -1,8 +1,11 @@
 import React from 'react';
+import Header from './Header';
+import MainBody from './MainBody';
 
-const Main = () => (
+const Main = ({movies}) => (
   <div>
-    <p>Cineplanet</p>
+    <Header />
+    <MainBody movies = {movies}/>
   </div>
 )
 
