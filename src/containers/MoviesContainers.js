@@ -10,4 +10,4 @@ const mapStateToProps = (state) => ({
 
 
 
-export default connect(mapStateToProps)(SimpleSlider)
+export default connect(mapStateToProps,null)(SimpleSlider)

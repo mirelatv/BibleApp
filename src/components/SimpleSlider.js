@@ -12,11 +12,11 @@ var settings = {
   slidesToScroll: 1
 };
 
-const SimpleSlider = ({ movies }) => (
+const SimpleSlider = ({movies}) => (
 
-  <Slider {...settings}>
+  <Slider {...settings} className="row">
     {movies.map(obj =>
-      <div className="p-2 p-md-3"
+      <div className="col-12"
         key={obj.name}
       // onClick={() => setSelectedBank(bank)}
       >

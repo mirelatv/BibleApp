@@ -1,10 +1,13 @@
 import { combineReducers } from 'redux'
-import Moviesreducer from './Movies-reducer'
+import MoviesReducer from './MoviesReducer'
 
 
 const rootReducer = combineReducers({
-  movies: Moviesreducer,
+  movies: MoviesReducer,
+  
+ 
   
 })
+
 
 export default rootReducer
