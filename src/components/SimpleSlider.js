@@ -6,35 +6,30 @@ import "slick-carousel/slick/slick-theme.css";
 
 
 
-var settings = {
-  dots: true,
-  infinite: true,
-  speed: 500,
-  slidesToShow: 1,
-  slidesToScroll: 1
-};
+  var settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1
+  };
 
-const SimpleSlider = ({movies}) => (
+  const SimpleSlider = ({ movies }) => (
 
- 
-  <Slider {...settings} className="row">
-    {console.log(movies)}
+    <Slider {...settings}>
+      {movies.map(obj =>
+        <div className="col-12"
+          key={obj.name}
+        // onClick={() => setSelectedBank(bank)}
+        >
+          <img className="img-fluid"
+            src={obj.image}
+            alt={obj.name}
+          />
 
-    {movies.map(obj =>
-      <div className="col-12"
-        key={obj.name}
-      // onClick={() => setSelectedBank(bank)}
-      >
-        <img className="img-fluid"
-          src={obj.image} 
-          alt={obj.name}
-        />
-      </div>
-    )}
-  </Slider>
+        </div>
+      )}
+    </Slider>
 
-)
-
-
-
-export default SimpleSlider;
+    )
+    export default SimpleSlider;

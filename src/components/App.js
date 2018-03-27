@@ -1,7 +1,7 @@
 import React from 'react';
 import  Splash from'./Splash';
-import MoviesContainers from '../containers/MoviesContainers';
-import Main from './Main'
+import ContainerSlider from '../containers/ContainerSlider'
+
 
 
 const App = () => (
@@ -9,8 +9,8 @@ const App = () => (
  
     <div>
       <Splash />
-      <MoviesContainers />
-      <Main/>
+      <ContainerSlider/>
+       
     </div>
   );
 
