@@ -5,7 +5,7 @@ export default function () {
         id: '1234A',
         name: 'Un viaje  en el Tiempo',
         sinopsis: 'una épica aventura basada en la clásica historia de Madeleine L.Engle que transporta a la audiencia a través de diferentes dimensiones en tiempo y espacio.',
-        image: 'assets/Un_Viaje_en_el_Tiempo_Poster_2_Latino_JPosters.jpg',  
+        image: 'assets/unviajeeneltiempo.jpg',  
         duracion: '1 horas 50 min',
         tipo: 'Accion y Aventura',
         director: 'Ani Alva Helfer',
