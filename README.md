@@ -86,7 +86,7 @@ Como propuesta de solución se decidió centrar el proyecto en mejorar el flujo 
 
 ### User persona
 
-![userpersonasr](https://user-images.githubusercontent.com/32309909/38034675-6b433fa6-3268-11e8-93e3-ba7fb37a8529.jpg)
+![userpersonasr](https://user-images.githubusercontent.com/32309909/38034826-b4706406-3268-11e8-8787-cd558d71c820.jpg)
 
 ### Propuesta de arquitectura de la información
 
