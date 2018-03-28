@@ -144,7 +144,7 @@ Con el flujo completo se obtuvieron los siguientes comentarios.
 
 ## Presentación:
 
-https://docs.google.com/presentation/d/1Woy9qcOL0zCl2jHCdbGPe-20xRlhFceXu1VNpyhpsHo/edit#slide=id.p
+[Presentación en Drive](https://docs.google.com/presentation/d/1Woy9qcOL0zCl2jHCdbGPe-20xRlhFceXu1VNpyhpsHo/edit#slide=id.p)
 
 
 ## Herramientas utilizadas:
