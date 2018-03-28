@@ -36,9 +36,13 @@ Lenny arias camacho
 Para decidir que funcionalidades se debían mejorar, se realizó un análisis de la estructura de contenidos de la aplicación actual. Y así identificar los procesos que se repiten y la cantidad de pasos que se deben completar para realizar las tareas. 
 
 #### Arquitectura de contenido de la aplicación actual.
+![user persona](public/assets/flujo/analisis_de_app_actual.jpg)
 
 #### **Problemas principales**
-
+1. **Falta de funcionamiento**
+  - En contenidos como el filtrado por ciudad, género y hoy (fecha) en la opción de Cine, al momento de hacer el pago de las entradas y de la dulcería.
+2. **Flujo engorroso y repetitivo**
+  - Muchas de las funciones se repiten, distintos flujos te llevan a un mismo punto, haciendo confusa la aplicación.
 
 
 ## **Identificación del problema**
@@ -62,7 +66,7 @@ Como propuesta de solución se decidió centrar el proyecto en mejorar el flujo 
 
 
 ### User persona
-![user persona](public/assets/flujo/user-persona.jpg)
+![user persona](public/assets/flujo/userpersona.png)
 
 ### Propuesta de arquitectura de la información
 
@@ -76,6 +80,18 @@ Como propuesta de solución se decidió centrar el proyecto en mejorar el flujo 
 
 
 ### Feature list
+ - Slider con estrenos
+ - Perfil de usuario
+ - Películas : En cartelera y Próximos estrenos
+ - Opción de ver Trailer
+ - Información de la película
+ - Opción de comprar entrada para verla.
+ - Elección de asientos
+ - Monto total de los boletos
+ - Dulcería
+ - Realizar el Pago
+ - Método de pago.
+
 
 ### Prototipo en alta fidelidad
 
