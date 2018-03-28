@@ -36,7 +36,7 @@ Lenny arias camacho
 Para decidir que funcionalidades se debían mejorar, se realizó un análisis de la estructura de contenidos de la aplicación actual. Y así identificar los procesos que se repiten y la cantidad de pasos que se deben completar para realizar las tareas. 
 
 #### Arquitectura de contenido de la aplicación actual.
-![user persona](public/assets/flujo/analisis_de_app_actual.jpg)
+![analisis_de_app_actual](https://user-images.githubusercontent.com/32309909/38006898-969a8b84-320c-11e8-8f16-535c3fece3c5.jpg)
 
 #### **Problemas principales**
 1. **Falta de funcionamiento**
@@ -66,7 +66,7 @@ Como propuesta de solución se decidió centrar el proyecto en mejorar el flujo 
 
 
 ### User persona
-![user persona](public/assets/flujo/userpersona.png)
+![userpersona](https://user-images.githubusercontent.com/32309909/38009627-e2155a72-321a-11e8-82f2-7a24af3bef03.png)
 
 ### Propuesta de arquitectura de la información
 
