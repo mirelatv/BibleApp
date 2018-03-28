@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Tabcito = ({activeTab,setActiveTab}) => (
-  <div className="row">
+  <div className="row tabs">
   {console.log(activeTab)}
   {console.log(setActiveTab)}
      <ul className="nav nav-pills" role="" aria-label="">
