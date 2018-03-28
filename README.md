@@ -147,3 +147,10 @@ Con el flujo completo se obtuvieron los siguientes comentarios.
 
 - Figma
 - Marvel
+- React
+- Redux
+- Reatt-Slick
+- Boostrap 4
+
+
+
