@@ -3,7 +3,7 @@ import { connect } from 'react-redux'
 import SimpleSlider from '../components/SimpleSlider'
 
 const mapStateToProps = (state) => ({
-  movies: state.cartelera,
+  movies: state.datamovies[state.info.activeTab],
   
 })
 

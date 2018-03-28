@@ -1,13 +1,15 @@
 import React from 'react';
 import Splash from './Splash';
-import MainBody from './MainBody';
-import ContainerSlider from '../containers/ContainerSlider'
+import ContainerSlider from '../containers/ContainerSlider';
+import ContainerTab from '../containers/ContainerTab';
+import ContainerMovies from '../containers/ContainerMovies';
 
 const App = () => (
   <div>
     <Splash />
     <ContainerSlider/>
-    <MainBody />
+    <ContainerTab/>
+    <ContainerMovies />
   </div>
 );
 

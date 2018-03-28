@@ -1,9 +1,11 @@
 import React from 'react';
-import MainBar from './MainBar';
+import ContainerTab from '../containers/ContainerTab';
+import Movies from './Movies';
 
-const MainBody = ({movies}) => (
+const MainBody = ({datamovies}) => (
   <main className="container">
-    <MainBar />    
+    <ContainerTab />
+    <Movies datamovies = {datamovies}/>
   </main>
 )
 
