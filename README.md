@@ -1,5 +1,9 @@
 # CINEPLANET APP - REDISEÑO
 
+![captura_marvel](https://user-images.githubusercontent.com/32309909/38033950-cf5fdd52-3266-11e8-86d6-9c56a9b6a8a1.jpg)
+
+
+
 ## **Descripción del proyecto**
 
 El siguiente proyecto consiste en el re diseño de la aplicación de Cineplanet Perú, con el fin de mejorar la accesibilidad, funcionalidad y experiencia de usuario; enfocado en el proceso de compra de entradas.
@@ -7,6 +11,18 @@ El siguiente proyecto consiste en el re diseño de la aplicación de Cineplanet 
 ## **Objetivo del proyecto**
 
 Mejorar el proceso de compra de entradas al cine y aumentar el número de usuarios activos. 
+
+## Desarrollado para
+
+[Laboratoria](http://laboratoria.la)
+
+## Equipo de trabajo
+
++ Jaliri Pancca, Tahirih.
++ Tello Vara, Noelia.
++ Herrera Polo, Romina. 
++ Cisneros Torre, Yelitza.
+
 
 ## **Research**
 Cineplanet Perú es una app con más de 4 mil descargas. Su última actualización fue el 21 de febrero del 2018 y encuentra ahora en la versión 3.4.1. Las principales funcionalidades son interacciones de los usuarios y compra de entradas.
@@ -39,15 +55,18 @@ Para decidir que funcionalidades se debían mejorar, se realizó un análisis de
 ![analisis_de_app_actual](https://user-images.githubusercontent.com/32309909/38006898-969a8b84-320c-11e8-8f16-535c3fece3c5.jpg)
 
 #### **Problemas principales**
+
+
 1. **Falta de funcionamiento**
   - En contenidos como el filtrado por ciudad, género y hoy (fecha) en la opción de Cine, al momento de hacer el pago de las entradas y de la dulcería.
+
 2. **Flujo engorroso y repetitivo**
   - Muchas de las funciones se repiten, distintos flujos te llevan a un mismo punto, haciendo confusa la aplicación.
 
 
 ## **Identificación del problema**
 
-### Problemnt Statements
+### Problem Statements
 
 - Problemás con el inicio de sesión
 - Proceso largo de compra.
@@ -66,9 +85,12 @@ Como propuesta de solución se decidió centrar el proyecto en mejorar el flujo 
 
 
 ### User persona
-![userpersona](https://user-images.githubusercontent.com/32309909/38009627-e2155a72-321a-11e8-82f2-7a24af3bef03.png)
+
+![userpersonasr](https://user-images.githubusercontent.com/32309909/38034826-b4706406-3268-11e8-8787-cd558d71c820.jpg)
 
 ### Propuesta de arquitectura de la información
+
+![Flujo](public/assets/flujo/flujo-0.jpg)
 
 #### *Inicio:* 
 
@@ -118,6 +140,7 @@ Con el flujo completo se obtuvieron los siguientes comentarios.
 - Algunos textos y contenidos estaban muy juntos.
 - Dificultad de visualización en algunas vistas.
 - El flujo de compra era mucho más rápido que con la aplicación original. 
+- El flujo es más entendible para los usuarios. 
 
 
 ## Herramientas utilizadas:
