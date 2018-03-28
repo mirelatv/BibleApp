@@ -1,6 +1,7 @@
 # CINEPLANET APP - REDISEÑO
 
-![marvel capture](https://user-images.githubusercontent.com/32309909/38033610-09c59280-3266-11e8-8df1-80da55989267.jpg)
+![captura_marvel](https://user-images.githubusercontent.com/32309909/38033950-cf5fdd52-3266-11e8-86d6-9c56a9b6a8a1.jpg)
+
 
 
 ## **Descripción del proyecto**
@@ -65,9 +66,7 @@ Para decidir que funcionalidades se debían mejorar, se realizó un análisis de
 
 ## **Identificación del problema**
 
-![Problemas](public/assets/flujo/problem.jpg)
-
-### Problemnt Statements
+### Problem Statements
 
 - Problemás con el inicio de sesión
 - Proceso largo de compra.
@@ -86,7 +85,8 @@ Como propuesta de solución se decidió centrar el proyecto en mejorar el flujo 
 
 
 ### User persona
-![userpersona](https://user-images.githubusercontent.com/32309909/38009627-e2155a72-321a-11e8-82f2-7a24af3bef03.png)
+![userpersonasr](https://user-images.githubusercontent.com/32309909/38034231-6c38de08-3267-11e8-9c6d-be1fc6858009.png)
+
 
 ### Propuesta de arquitectura de la información
 
