@@ -142,6 +142,10 @@ Con el flujo completo se obtuvieron los siguientes comentarios.
 - El flujo de compra era mucho más rápido que con la aplicación original. 
 - El flujo es más entendible para los usuarios. 
 
+## Presentación:
+
+https://docs.google.com/presentation/d/1Woy9qcOL0zCl2jHCdbGPe-20xRlhFceXu1VNpyhpsHo/edit#slide=id.p
+
 
 ## Herramientas utilizadas:
 
