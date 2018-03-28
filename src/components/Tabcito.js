@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Tabcito = ({activeTab,setActiveTab}) => (
+const Tabcito = ({activeTab,setActiveTab, datamovies}) => (
   <div className="container mt-3">
     <div className="row">
       {console.log(activeTab)}

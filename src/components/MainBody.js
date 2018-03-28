@@ -1,10 +1,10 @@
 import React from 'react';
 import Movies from './Movies';
 
-const MainBody = ({datamovies}) => (
+const MainBody = () => (
   <main>
     <ContainerTab />
-    <Movies datamovies = {datamovies}/>
+    <ContainerMovies />
   </main>
 )
 
