@@ -15,11 +15,14 @@
     "slick-carousel": "^1.8.1",
     "tabs": "^0.2.0"
   },
+  "homepage": "https://mirelatv.github.io/BibleApp",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
     "redux-devtools": "^3.4.1"
