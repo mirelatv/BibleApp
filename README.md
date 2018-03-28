@@ -1,6 +1,7 @@
 # CINEPLANET APP - REDISEÑO
 
-![marvel capture](https://user-images.githubusercontent.com/32309909/38033610-09c59280-3266-11e8-8df1-80da55989267.jpg)
+![captura_marvel](https://user-images.githubusercontent.com/32309909/38033950-cf5fdd52-3266-11e8-86d6-9c56a9b6a8a1.jpg)
+
 
 ## **Descripción del proyecto**
 
