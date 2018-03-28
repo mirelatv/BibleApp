@@ -1,5 +1,7 @@
 # CINEPLANET APP - REDISEÑO
 
+![marvel capture](https://user-images.githubusercontent.com/32309909/38033610-09c59280-3266-11e8-8df1-80da55989267.jpg)
+
 ## **Descripción del proyecto**
 
 El siguiente proyecto consiste en el re diseño de la aplicación de Cineplanet Perú, con el fin de mejorar la accesibilidad, funcionalidad y experiencia de usuario; enfocado en el proceso de compra de entradas.
