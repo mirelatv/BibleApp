@@ -20,7 +20,9 @@ const Tabcito = ({activeTab,setActiveTab}) => (
       <a id="estrenos"
         className={activeTab ==='estrenos' ? 'nav-link py-1 active' : 'nav-link py-1'}
         data-toggle="tab" role="tab"
-         onClick={() =>setActiveTab('estrenos')}
+         onClick={(e) => {
+          e.preventDefault() 
+          setActiveTab('estrenos')}}
          className="btn btn-outline-danger">Próximos estrenos
       </a>
       </li>
