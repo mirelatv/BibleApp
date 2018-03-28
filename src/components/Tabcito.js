@@ -1,30 +1,34 @@
 import React from 'react'
 
 const Tabcito = ({activeTab,setActiveTab}) => (
-  <div className="row">
-  {console.log(activeTab)}
-  {console.log(setActiveTab)}
-     <ul className="nav nav-pills" role="" aria-label="">
-     <li className="nav-item">
-      <a id="cartelera"
-        className={activeTab === 'cartelera' ? 'nav-link py-1 active' : 'nav-link py-1'}
-        data-toggle="tab" role="tab"
-         onClick={(e) => {
-           e.preventDefault()
-           setActiveTab('cartelera')
-          }}
-         className="btn btn-outline-danger">En Cartelera
-      </a>
-      </li>
-      <li className="nav-item">
-      <a id="estrenos"
-        className={activeTab ==='estrenos' ? 'nav-link py-1 active' : 'nav-link py-1'}
-        data-toggle="tab" role="tab"
-         onClick={() =>setActiveTab('estrenos')}
-         className="btn btn-outline-danger">Próximos estrenos
-      </a>
-      </li>
-    </ul> 
+  <div className="container mt-3">
+    <div className="row">
+      {console.log(activeTab)}
+      {console.log(setActiveTab)}
+      <div className="col-12">
+      <ul className="nav nav-pills d-flex justify-content-center">
+          <li className="nav-item">
+            <a id="cartelera"
+                className={activeTab === 'cartelera' ? 'nav-link py-1 active' : 'nav-link py-1'}
+                data-toggle="tab" role="tab"
+                onClick={(e) => {
+                  e.preventDefault()
+                  setActiveTab('cartelera')
+                  }}
+                className="btn btn-outline-danger">En Cartelera
+            </a>
+          </li>
+          <li className="nav-item">
+            <a id="estrenos"
+              className={activeTab ==='estrenos' ? 'nav-link py-1 active' : 'nav-link py-1'}
+              data-toggle="tab" role="tab"
+              onClick={() => setActiveTab('estrenos')}
+              className="btn btn-outline-danger">Próximos estrenos
+            </a>
+          </li>
+        </ul> 
+      </div>
+    </div>
   </div>
 )
 

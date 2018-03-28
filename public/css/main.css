@@ -7,8 +7,12 @@ ul {
   list-style: none;
 }
 
+footer {
+  background-color: #f5f5f7;
+}
+
 .imgs-footer{
-  width: 3rem;
+  width: 2.3rem;
 }
 
 .icon-header {
